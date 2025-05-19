@@ -10,7 +10,7 @@ return (
     <Button variant="dark" style={
         {
             height:150,
-            fontSize:60
+            fontSize:70
 
         }}>{props.name}</Button>
     </div>

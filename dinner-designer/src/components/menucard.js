@@ -2,8 +2,9 @@ import './../App.css';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/esm/Stack';
 import Foodmaker from './foodmaker';
+import MealCard from './mealcard';
 
-const Generator = (props) => {
+const MenuCard = (props) => {
 return (
     <div style={{
         display:'flex', 
@@ -13,16 +14,7 @@ return (
       <Stack gap={1} style={{display:'flex', 
         alignItems:'center',
         justifyContent: 'center', }}>
-            <div className="p-2"><p style={
-        {
-            fontSize:50
-
-        }}><mark>Restaurant Name</mark></p></div>
-        <div className="p-0"><p style={
-        {
-            fontSize:14
-
-        }}>Restaurant Slogan</p></div>
+            <MealCard building="Restaurant sdgfdfg" slogan="dfsg'm Gay"/>
         <div className="p-2"><p style={
         {
             fontSize:40
@@ -59,4 +51,4 @@ return (
 )
 }
 
-export default Generator;
+export default MenuCard;
