@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/emilia-green.github.io/dinner-designer/static/css/main.0e00e2e5.css",
+    "main.js": "/emilia-green.github.io/dinner-designer/static/js/main.930267ea.js",
+    "static/js/453.c6dff063.chunk.js": "/emilia-green.github.io/dinner-designer/static/js/453.c6dff063.chunk.js",
+    "index.html": "/emilia-green.github.io/dinner-designer/index.html",
+    "main.0e00e2e5.css.map": "/emilia-green.github.io/dinner-designer/static/css/main.0e00e2e5.css.map",
+    "main.930267ea.js.map": "/emilia-green.github.io/dinner-designer/static/js/main.930267ea.js.map",
+    "453.c6dff063.chunk.js.map": "/emilia-green.github.io/dinner-designer/static/js/453.c6dff063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e00e2e5.css",
+    "static/js/main.930267ea.js"
+  ]
+}
