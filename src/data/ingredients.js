@@ -7,6 +7,10 @@ export const dishNoun = [
 export const verb = [
     "Galloping", "Tasty", "Trustworthy", "Delightful", "Ravishing", "Golden", "Rooftop", "Old", "Family"];
 
+    export const sauce = [
+  "Sauce", "Reduction", "Confit", "Glaze", "Salad", "Stew", "Curry", "Soup"
+];
+
 export const dish = [
   "Chicken", "Beef", "Pork", "Tofu", "Salmon", "Shrimp", "Lamb", "Duck",
   "Turkey", "Mushrooms", "Eggplant", "Zucchini", "Potatoes", "Carrots",
