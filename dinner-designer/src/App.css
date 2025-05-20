@@ -17,7 +17,29 @@
   color: #61dafb;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
+}
+
+#menuitem {
+  color: white;
+  font-weight: bold;
+}
+
+mark{
+  background: #6082B6;
+}
+
+#restaurantName {
+  padding: 15px;
+  color: wheat;
+  text-shadow: "2px 2px black";
+  font-weight: bold;
+  font-size:55px;
+  display:'flex';
+  margin:auto;
+  background-color: #a0aba2;
 }
