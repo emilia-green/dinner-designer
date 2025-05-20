@@ -1,7 +1,7 @@
 {
   "name": "dinner-designer",
   "version": "0.1.0",
-  "homepage": "emilia-green.github.io/dinner-designer",
+  "homepage": "emilia-green.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
