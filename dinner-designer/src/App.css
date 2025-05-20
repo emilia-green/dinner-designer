@@ -35,10 +35,11 @@ mark{
 
 #restaurantName {
   padding: 15px;
+  border-bottom: 25px;
   color: wheat;
   text-shadow: "2px 2px black";
   font-weight: bold;
-  font-size:55px;
+  font-size:45px;
   display:'flex';
   margin:auto;
   background-color: #a0aba2;

@@ -1,35 +1,36 @@
 import './../App.css';
 import Button from 'react-bootstrap/Button';
-import Stack from 'react-bootstrap/esm/Stack';
 import GetMeal from './getMeal';
 import MealCard from './mealcard';
 import { useState } from 'react';
-import Title from './title';
 import GetRestaurantName from './getRestaurantName';
 
 const MenuCard = (props) => {
-      const [menu, setMenu] = useState(() => generateMenu());
+    const [menu, setMenu] = useState(generateMenu);
 
-      function generateMenu(){
+    function generateMenu() {
         return {
-
+            appetiser: <GetMeal />,
+            mainCourse: <GetMeal />,
+            dessert: <GetMeal />
         };
-      }
+    }
 
-      function handleClick(){
+    function handleClick() {
         setMenu(generateMenu());
-      }
-      
-return (
-    <div className="vstack">
-    <GetRestaurantName id="restaurantName"/>
-      <MealCard course="Appetiser" dish={<GetMeal/>} />
-      <MealCard course="Main Course" dish={<GetMeal/>} />
-      <MealCard course="Dessert" dish={<GetMeal/>}/>
-      <Button style={{marginTop:"15px", margin:"auto",}} class="btn btn-secondary" onClick={handleClick}>generate new menu</Button>
-    </div>
-    
-)
+    }
+
+    return (
+        <div className="vstack" style={{width:"400px", margin:"0 auto", alignItems:'center',
+        justifyContent: 'center', textAlign:'center'}}>
+            <GetRestaurantName id="restaurantName" />
+            <MealCard course="Appetiser" dish={menu.appetiser} />
+            <MealCard course="Main Course" dish={menu.mainCourse} />
+            <MealCard course="Dessert" dish={menu.dessert} />
+            <Button style={{ marginTop: "25px", margin: "auto", }} className="btn btn-secondary" onClick={handleClick}>generate new menu</Button>
+        </div>
+
+    )
 }
 
 export default MenuCard;

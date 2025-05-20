@@ -13,7 +13,12 @@ export const dish = [
   "Broccoli", "Cauliflower", "Spinach", "Kale", "Noodles", "Rice",
   "Pasta", "Quinoa", "Lentils", "Chickpeas", "Beans", "Tofu Steaks",
   "Tempeh", "Ribs", "Meatballs", "Wings", "Crab", "Tacos", "Burgers", "Sandwich",
-  "Pizza", "Stew", "Soup", "Salad", "Curry", "Casserole", "Wrap"
+  "Pizza", "Stew", "Soup", "Salad", "Curry", "Casserole", "Wrap",
+  "Gnocchi", "Paella", "Biryani", "Sushi", "Ramen", "Pho", "Bulgogi", "Kimchi",
+  "Tamales", "Empanadas", "Pierogi", "Moussaka", "Shakshuka", "Gumbo", "Jambalaya",
+  "Risotto", "Tagine", "Falafel", "Kofta", "Okonomiyaki", "Chow Mein", "Tteokbokki",
+  "Arepas", "Bibimbap", "Lasagna", "Chili", "Frittata", "Ratatouille", "Schnitzel",
+  "Brisket", "Cassoulet", "Poutine", "Stuffed Peppers", "Bao", "Yakitori"
 ];
 
 export const food_prefix = [
@@ -39,11 +44,35 @@ export const preparationMethods = [
 export const restaurantAdjectives = [
   "Hungry", "Golden", "Savory", "Rustic", "Fiery", "Fresh", "Happy", "Wandering",
   "Lazy", "Tasty", "Zesty", "Crispy", "Roaming", "Cozy", "Secret", "Bold", "Warm",
-  "Sizzling", "Sweet", "Wild"
+  "Sizzling", "Sweet", "Wild", "Old", "Family"
 ];
 
 export const restaurantMascots = [
   "Goat", "Pig", "Cow", "Duck", "Rooster", "Fox", "Bear", "Tiger", "Crab",
   "Chef", "Butcher", "Farmer", "Granny", "Mama", "Uncle", "Fisherman",
   "Nomad", "Baker", "Traveler", "Bandit"
+];
+
+export const flavorProfiles = [
+  "Savory", "Sweet", "Salty", "Sour", "Bitter", "Umami",
+  "Spicy", "Mild", "Smoky", "Tangy", "Zesty", "Rich",
+  "Earthy", "Herby", "Floral", "Peppery", "Citrusy",
+  "Nutty", "Buttery", "Garlicky", "Oniony", "Cheesy",
+  "Creamy", "Fruity", "Malty", "Grassy", "Caramelized",
+  "Roasted", "Fermented", "Briny", "Pickled", "Gamey",
+  "Meaty", "Toasty", "Syrupy", "Minty", "Chocolaty",
+  "Vanilla", "Smokey-Sweet", "Hot And Sour", "Cooling",
+  "Tart", "Pungent", "Aromatic", "Woody", "Resinous",
+  "Metallic", "Astringent", "Sulfurous", "Medicinal", "Bland"
+];
+
+export const restaurantTypes = [
+  "Kitchen", "Grill", "Diner", "Tavern", "Bistro", "Cantina", "Bakery", "Smokehouse",
+  "Garden", "Pantry", "Cafe", "Truck", "Inn", "Shack", "Bar", "Joint", "Pit",
+  "Nook", "Table", "Cellar"
+];
+
+export const restaurantThemes = [
+  "Island", "Harbor", "Meadow", "Forest", "Mountain", "Valley", "Street",
+  "Market", "Village", "Bay", "Desert", "Farm", "River", "Jungle", "Ocean"
 ];

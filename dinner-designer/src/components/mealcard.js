@@ -1,10 +1,9 @@
-import React from 'react';
 import GetMeal from './getMeal';
 
 const MealCard = (props) => {
   return (
     
-    <div className="vstack gap-3" style={{
+    <div className="vstack gap-2" style={{
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',

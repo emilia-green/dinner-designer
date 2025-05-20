@@ -9,8 +9,8 @@ return (
         justifyContent: 'center',}}>
     <Button variant="dark" style={
         {
-            height:150,
-            fontSize:70
+            height:105,
+            fontSize:60
 
         }}>{props.name}</Button>
     </div>
