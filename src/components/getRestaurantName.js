@@ -10,7 +10,7 @@ const GetRestaurantName = () => {
   }
 
 const mealStructures =[
-    ["The ", getRandomItem(restaurantAdjectives), " ", getRandomItem(restaurantMascots),],
+    ["the ", getRandomItem(restaurantAdjectives), " ", getRandomItem(restaurantMascots),],
     [getRandomItem(restaurantAdjectives), " ", getRandomItem(restaurantTypes),],
     [getRandomItem(restaurantAdjectives), " ", getRandomItem(restaurantThemes), " ", getRandomItem(restaurantTypes)],
     [getRandomItem(restaurantThemes), " ", getRandomItem(restaurantTypes)]

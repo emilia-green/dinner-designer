@@ -11,15 +11,20 @@ const GetMeal = () => {
 
 const mealStructures =[
     [getRandomItem(preparationMethods), " ", getRandomItem(dish)," with ", getRandomItem(flavorDescriptors), " ", getRandomItem(dish)],
+    [getRandomItem(flavorDescriptors), " ", getRandomItem(preparationMethods), " ", getRandomItem(dish)," with ", " ", getRandomItem(dish)],
+    [getRandomItem(dish), " topped with ", getRandomItem(flavorProfiles), " ", getRandomItem(dish)],
+    [getRandomItem(preparationMethods), " ", getRandomItem(dish)," coated with a ", getRandomItem(flavorProfiles), " ", getRandomItem(sauce)],
+    [getRandomItem(flavorProfiles), " ", getRandomItem(dish)," tossed in a ", getRandomItem(flavorDescriptors), " ", getRandomItem(sauce)],
     [getRandomItem(preparationMethods), " ", getRandomItem(flavorProfiles), " ", getRandomItem(dish)],
     [getRandomItem(flavorDescriptors), " ", getRandomItem(dish)," on a bed of ", getRandomItem(dish)],
     [getRandomItem(preparationMethods), " ", getRandomItem(dish)," in a ", getRandomItem(flavorDescriptors), " ", getRandomItem(sauce)],
+    [getRandomItem(flavorProfiles), " ", getRandomItem(dish)," served with your choice of ", getRandomItem(dish), " ", getRandomItem(sauce), " or ", getRandomItem(flavorDescriptors), " ", getRandomItem(dish)],
     [getRandomItem(flavorDescriptors), " ", getRandomItem(dish),", ", getRandomItem(flavorDescriptors), " ", getRandomItem(dish), " and a side of ", getRandomItem(preparationMethods), " ", getRandomItem(dish)  ],
 ]
   return (
     <>
-      <p>{getRandomItem(mealStructures)}
-         </p>
+      {getRandomItem(mealStructures)}
+         
     </>
   );
 };

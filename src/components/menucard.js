@@ -11,7 +11,7 @@ const MenuCard = (props) => {
     function generateMenu() {
         return {
             appetiser: <GetMeal />,
-            mainCourse: <GetMeal />,
+            mainCourse: <GetMeal/>,
             dessert: <GetMeal />
         };
     }
@@ -21,15 +21,16 @@ const MenuCard = (props) => {
     }
 
     return (
+        <>
         <div className="vstack" style={{width:"400px", margin:"0 auto", alignItems:'center',
         justifyContent: 'center', textAlign:'center'}}>
             <GetRestaurantName id="restaurantName" />
             <MealCard course="Appetiser" dish={menu.appetiser} />
             <MealCard course="Main Course" dish={menu.mainCourse} />
             <MealCard course="Dessert" dish={menu.dessert} />
-            <Button style={{ marginTop: "25px", margin: "auto", }} className="btn btn-secondary" onClick={handleClick}>generate new menu</Button>
+            <Button style={{ marginTop: "23px", margin: "auto", }} className="btn btn-secondary" onClick={handleClick}>generate new menu</Button>
         </div>
-
+</>
     )
 }
 

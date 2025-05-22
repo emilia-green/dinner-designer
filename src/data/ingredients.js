@@ -1,82 +1,88 @@
 export const adjective = [
-    "Sublime", "Astute", "Germane", "Vulnerable", "Tasty", "Randall", "Iron"];
+  "sublime", "astute", "germane", "vulnerable", "tasty", "randall", "iron"
+];
 
 export const dishNoun = [
-    "Plate", "Table", "Food", "Meal", "Mouthful", "Morsel", "Bite", "Maison", "House", "Garden", "Pub", "Inn", "Free House", "Cafe", "Shed"];
+  "plate", "table", "food", "meal", "mouthful", "morsel", "bite", "maison",
+  "house", "garden", "pub", "inn", "free house", "cafe", "shed"
+];
 
 export const verb = [
-    "Galloping", "Tasty", "Trustworthy", "Delightful", "Ravishing", "Golden", "Rooftop", "Old", "Family"];
+  "galloping", "tasty", "trustworthy", "delightful", "ravishing", "golden",
+  "rooftop", "old", "family"
+];
 
-    export const sauce = [
-  "Sauce", "Reduction", "Confit", "Glaze", "Salad", "Stew", "Curry", "Soup"
+export const sauce = [
+  "sauce", "reduction", "confit", "glaze", "salad", "stew", "curry", "soup", "relish", "dip", "jus", "coulis", "dressing", "marinade", "seasoning", "gravy"
 ];
 
 export const dish = [
-  "Chicken", "Beef", "Pork", "Tofu", "Salmon", "Shrimp", "Lamb", "Duck",
-  "Turkey", "Mushrooms", "Eggplant", "Zucchini", "Potatoes", "Carrots",
-  "Broccoli", "Cauliflower", "Spinach", "Kale", "Noodles", "Rice",
-  "Pasta", "Quinoa", "Lentils", "Chickpeas", "Beans", "Tofu Steaks",
-  "Tempeh", "Ribs", "Meatballs", "Wings", "Crab", "Tacos", "Burgers", "Sandwich",
-  "Pizza", "Stew", "Soup", "Salad", "Curry", "Casserole", "Wrap",
-  "Gnocchi", "Paella", "Biryani", "Sushi", "Ramen", "Pho", "Bulgogi", "Kimchi",
-  "Tamales", "Empanadas", "Pierogi", "Moussaka", "Shakshuka", "Gumbo", "Jambalaya",
-  "Risotto", "Tagine", "Falafel", "Kofta", "Okonomiyaki", "Chow Mein", "Tteokbokki",
-  "Arepas", "Bibimbap", "Lasagna", "Chili", "Frittata", "Ratatouille", "Schnitzel",
-  "Brisket", "Cassoulet", "Poutine", "Stuffed Peppers", "Bao", "Yakitori"
+  "chicken", "beef", "pork", "tofu", "salmon", "shrimp", "lamb", "duck",
+  "turkey", "mushrooms", "eggplant", "zucchini", "potatoes", "carrots",
+  "broccoli", "cauliflower", "spinach", "kale", "noodles", "rice", "pasta",
+  "quinoa", "lentils", "chickpeas", "beans", "tofu steaks", "tempeh", "ribs",
+  "meatballs", "wings", "crab", "tacos", "burgers", "sandwich", "pizza",
+  "stew", "soup", "salad", "curry", "casserole", "wrap", "gnocchi", "paella",
+  "biryani", "sushi", "ramen", "pho", "bulgogi", "kimchi", "tamales",
+  "empanadas", "pierogi", "moussaka", "shakshuka", "gumbo", "jambalaya",
+  "risotto", "tagine", "falafel", "kofta", "okonomiyaki", "chow mein",
+  "tteokbokki", "arepas", "bibimbap", "lasagna", "chili", "frittata",
+  "ratatouille", "schnitzel", "brisket", "cassoulet", "poutine",
+  "stuffed peppers", "bao", "yakitori"
 ];
 
 export const food_prefix = [
-    "Silky", "Saucy", "Smothered", "Grass-fed", "Delicate", "Moreish", "Edible", "Delicious", "Exquisite", "Fiery", "Mild", "Pleasant", "Desirable", "Rich", "Gentle"];
+  "silky", "saucy", "smothered", "grass-fed", "delicate", "moreish", "edible",
+  "delicious", "exquisite", "fiery", "mild", "pleasant", "desirable", "rich", "gentle"
+];
 
 export const concept = [
-    "Flavour", "Happiness", "Contentness", "Peace", "Satiety", "Brevity"]
+  "flavour", "happiness", "contentness", "peace", "satiety", "brevity"
+];
 
 export const flavorDescriptors = [
-  "Acidic", "Bitter", "Bittersweet", "Briny", "Citrusy", "Cooling", "Earthy",
-  "Fiery", "Fresh", "Fruity", "Full-bodied", "Herbal", "Honeyed", "Nutty",
-  "Rich", "Robust", "Savory", "Sharp", "Smoky", "Sour", "Spicy", "Sweet",
-  "Tangy", "Tart", "Yeasty", "Woody", "Zesty", "Raw"
+  "acidic", "bitter", "bittersweet", "briny", "citrusy", "cooling", "earthy",
+  "fiery", "fresh", "fruity", "full-bodied", "herbal", "honeyed", "nutty",
+  "rich", "robust", "savory", "sharp", "smoky", "sour", "spicy", "sweet",
+  "tangy", "tart", "yeasty", "woody", "zesty", "raw"
 ];
 
 export const preparationMethods = [
-  "Baked", "Blanched", "Blackened", "Braised", "Breaded", "Broiled", 
-  "Caramelized", "Charred", "Fermented", "Fried", "Glazed", "Infused", 
-  "Marinated", "Poached", "Roasted", "Sauteed", "Seared", "Smoked", "Whipped", "Raw"
+  "baked", "blanched", "blackened", "braised", "breaded", "broiled", 
+  "caramelized", "charred", "fermented", "fried", "glazed", "infused", 
+  "marinated", "poached", "roasted", "sauteed", "seared", "smoked", "whipped", "raw", "grated", "diced", "chopped", "pickled", "pulled", "burnt"
 ];
 
-
 export const restaurantAdjectives = [
-  "Hungry", "Golden", "Savory", "Rustic", "Fiery", "Fresh", "Happy", "Wandering",
-  "Lazy", "Tasty", "Zesty", "Crispy", "Roaming", "Cozy", "Secret", "Bold", "Warm",
-  "Sizzling", "Sweet", "Wild", "Old", "Family"
+  "hungry", "golden", "savory", "rustic", "fiery", "fresh", "happy", "wandering",
+  "lazy", "tasty", "zesty", "crispy", "roaming", "cozy", "secret", "bold", "warm",
+  "sizzling", "sweet", "wild", "old", "family"
 ];
 
 export const restaurantMascots = [
-  "Goat", "Pig", "Cow", "Duck", "Rooster", "Fox", "Bear", "Tiger", "Crab",
-  "Chef", "Butcher", "Farmer", "Granny", "Mama", "Uncle", "Fisherman",
-  "Nomad", "Baker", "Traveler", "Bandit"
+  "goat", "pig", "cow", "duck", "rooster", "fox", "bear", "tiger", "crab",
+  "chef", "butcher", "farmer", "granny", "mama", "uncle", "fisherman",
+  "nomad", "baker", "traveler", "bandit"
 ];
 
 export const flavorProfiles = [
-  "Savory", "Sweet", "Salty", "Sour", "Bitter", "Umami",
-  "Spicy", "Mild", "Smoky", "Tangy", "Zesty", "Rich",
-  "Earthy", "Herby", "Floral", "Peppery", "Citrusy",
-  "Nutty", "Buttery", "Garlicky", "Oniony", "Cheesy",
-  "Creamy", "Fruity", "Malty", "Grassy", "Caramelized",
-  "Roasted", "Fermented", "Briny", "Pickled", "Gamey",
-  "Meaty", "Toasty", "Syrupy", "Minty", "Chocolaty",
-  "Vanilla", "Smokey-Sweet", "Hot And Sour", "Cooling",
-  "Tart", "Pungent", "Aromatic", "Woody", "Resinous",
-  "Metallic", "Astringent", "Sulfurous", "Medicinal", "Bland"
+  "savory", "sweet", "salty", "sour", "bitter", "umami", "spicy", "mild",
+  "smoky", "tangy", "zesty", "rich", "earthy", "herby", "floral", "peppery",
+  "citrusy", "nutty", "buttery", "garlicky", "oniony", "cheesy", "creamy",
+  "fruity", "malty", "grassy", "caramelized", "roasted", "fermented", "briny",
+  "pickled", "gamey", "meaty", "toasty", "syrupy", "minty", "chocolaty",
+  "vanilla", "smokey-sweet", "hot and sour", "cooling", "tart", "pungent",
+  "aromatic", "woody", "resinous", "metallic", "astringent", "sulfurous",
+  "medicinal", "bland"
 ];
 
 export const restaurantTypes = [
-  "Kitchen", "Grill", "Diner", "Tavern", "Bistro", "Cantina", "Bakery", "Smokehouse",
-  "Garden", "Pantry", "Cafe", "Truck", "Inn", "Shack", "Bar", "Joint", "Pit",
-  "Nook", "Table", "Cellar"
+  "kitchen", "grill", "diner", "tavern", "bistro", "cantina", "bakery",
+  "smokehouse", "garden", "pantry", "cafe", "truck", "inn", "shack", "bar",
+  "joint", "pit", "nook", "table", "cellar"
 ];
 
 export const restaurantThemes = [
-  "Island", "Harbor", "Meadow", "Forest", "Mountain", "Valley", "Street",
-  "Market", "Village", "Bay", "Desert", "Farm", "River", "Jungle", "Ocean"
+  "island", "harbor", "meadow", "forest", "mountain", "valley", "street",
+  "market", "village", "bay", "desert", "farm", "river", "jungle", "ocean"
 ];
